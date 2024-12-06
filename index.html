@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <form method="get" action="index.html" class="form">
+        <section class="name">
+            <h2>Nome</h2>
+            <input type="text" id="name" name="name" placeholder="Nome" required>
+        </section>
+
+        
+        <section class="question">
+            <h2>Qual destas é uma linguagem de marcação?</h2>
+            <div>
+                <input type="radio" id="HTML" name="language" value="HTML">
+                <label for="HTML">HTML</label>
+            </div>
+
+            <div>
+                <input type="radio" id="PHP" name="language" value="PHP">
+                <label for="HTML">PHP</label>
+            </div>
+
+            <div>
+                <input type="radio" id="JavaScript" name="language" value="JavaScript">
+                <label for="HTML">JavaScript</label>
+            </div>
+        </section>
+
+        <section>
+            <div class="term">
+                <input type="checkbox" id="term" name="term" required>
+                <h2>Li e concordo com os termos</h2>
+            </div>
+            <button class="btn">Submit</button>
+        </section>
+
+        
+    </form>
+
+
+</body>
+
+</html>

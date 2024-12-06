@@ -1,0 +1,35 @@
+body {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.question {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.question div {
+    padding-left: 5px;
+}
+
+.term{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    padding-left: 5px;
+}
+
+.btn {
+    padding: 0 5px;
+}
